@@ -1,0 +1,33 @@
+{
+  "name": "firebase-error-translator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "node dist/test.js",
+    "create": "node dist/genlanguage.js",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JebBarbas/firebase-error-translator.git"
+  },
+  "keywords": [
+    "firebase",
+    "error",
+    "traductor"
+  ],
+  "author": "jebbarbas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JebBarbas/firebase-error-translator/issues"
+  },
+  "homepage": "https://github.com/JebBarbas/firebase-error-translator#readme",
+  "devDependencies": {
+    "@types/node": "^16.4.13",
+    "@types/prompt": "^1.1.1",
+    "prompt": "^1.1.0",
+    "standard-version": "^9.3.1",
+    "typescript": "^4.3.5"
+  }
+}
