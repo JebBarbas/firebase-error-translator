@@ -1,7 +1,7 @@
 {
   "name": "firebase-error-translator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Helps to handle the firebase errors based on their codes, you can translate the error to any of the available languages. (Now only works with auth errors)",
   "main": "dist/index.js",
   "scripts": {
     "test": "node dist/test.js",
