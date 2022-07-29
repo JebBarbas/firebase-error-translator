@@ -7,7 +7,8 @@
     "test": "node tests",
     "fto": "node creators/fto.js",
     "release": "standard-version",
-    "build": "tsc"
+    "build": "tsc",
+    "share": "git push --follow-tags origin main && npm publish"
   },
   "repository": {
     "type": "git",
