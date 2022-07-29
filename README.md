@@ -18,6 +18,9 @@ For now, the version only supports translations for:
 - Storage: ✅
 - Firestore: ❌ (in the future, when I could find a documentation for the firestore errors)
 
+Because new features are added, now it can only translate to 2 langs: English 'en', and Spanish 'es'; this
+is because that are the languages that I know how to write some phrases that explain the errors.
+
 ## Basic Use
 
 Note: This syntax is using module imports, but if you want to use commonjs modules,
