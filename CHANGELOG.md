@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.1](https://github.com/JebBarbas/firebase-error-translator/compare/v2.0.0...v2.0.1) (2022-07-29)
+
+
+### Bug Fixes
+
+* Changed README header ([c5869bc](https://github.com/JebBarbas/firebase-error-translator/commit/c5869bc844873164792afb8a7a1e79f98f14891c))
+
 ## [2.0.0](https://github.com/JebBarbas/firebase-error-translator/compare/v1.0.2...v2.0.0) (2022-07-29)
 
 
