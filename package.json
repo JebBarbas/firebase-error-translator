@@ -4,9 +4,10 @@
   "description": "Helps to handle the firebase errors based on their codes, you can translate the error to any of the available languages. (Now only works with auth errors)",
   "main": "dist/index.js",
   "scripts": {
-    "test": "node dist/test.js",
-    "create": "node dist/genlanguage.js",
-    "release": "standard-version"
+    "test": "node tests",
+    "fto": "node creators/fto.js",
+    "release": "standard-version",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -15,18 +16,17 @@
   "keywords": [
     "firebase",
     "error",
-    "traductor"
+    "translator",
+    "translate"
   ],
   "author": "jebbarbas",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/JebBarbas/firebase-error-translator/issues"
   },
   "homepage": "https://github.com/JebBarbas/firebase-error-translator#readme",
   "devDependencies": {
     "@types/node": "^16.4.13",
-    "@types/prompt": "^1.1.1",
-    "prompt": "^1.1.0",
     "standard-version": "^9.3.1",
     "typescript": "^4.3.5"
   }
