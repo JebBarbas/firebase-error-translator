@@ -1,11 +1,11 @@
-<center>
-    <img src="https://i.ibb.co/vwQGHr3/fet.jpg" width="64" alt="fet" border="0">
-    <h1 style="align-self: center">Firebase Error Translator</h1>
-</center>
+<div style="text-align:center;">
+    <img src="https://i.ibb.co/vwQGHr3/fet.jpg" width="64" alt="fet" border="0"/>
+    <h1> Firebase Error Translator</h1>
+</div>
 
 Helps to handle the firebase errors based on their codes, you can translate the error to any of the available languages, now it also adds a translation to the client.
 
----.
+---
 
 [![Build Status](https://app.travis-ci.com/JebBarbas/firebase-error-translator.svg?branch=main)](https://app.travis-ci.com/JebBarbas/firebase-error-translator)
 ![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/firebase-error-translator)
