@@ -127,6 +127,10 @@ const es:TranslateDictionary = ['es', {
         toDev: "La contraseña con sal debe ser un búfer de bytes válido.",
         toClient: "default"
     },
+    "auth/wrong-password": {
+        toDev: "El correo electrónico y la contraseña que ingresó no coinciden", 
+        toClient: "default"
+    },
     "auth/invalid-phone-number": {
         toDev: "El valor que se proporcionó para phoneNumber no es válido. Debe ser una string de identificador que no esté vacía y que cumpla con el estándar E.164.",
         toClient: "El valor que se proporcionó para el número de teléfono no es válido, por favor escriba un texto no vacío que cumpla con el estándar E.164."

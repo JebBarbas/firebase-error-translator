@@ -127,6 +127,10 @@ const en:TranslateDictionary = ['en', {
         toDev: "The password salt must be a valid byte buffer",
         toClient: "default"
     },
+    "auth/wrong-password": {
+        toDev: "The email and password you entered don't match",
+        toClient: "The email and password you entered don't match"
+    }, 
     "auth/invalid-phone-number": {
         toDev: "The provided value for the phoneNumber is invalid. It must be a non-empty E.164 standard compliant identifier string.",
         toClient: "The provided value for your phone number is invalid, please write a non-empty text following the E.164 standard."
