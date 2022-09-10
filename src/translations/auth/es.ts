@@ -129,7 +129,7 @@ const es:TranslateDictionary = ['es', {
     },
     "auth/wrong-password": {
         toDev: "El correo electrónico y la contraseña que ingresó no coinciden", 
-        toClient: "default"
+        toClient: "El correo electrónico y la contraseña que ingresó no coinciden"
     },
     "auth/invalid-phone-number": {
         toDev: "El valor que se proporcionó para phoneNumber no es válido. Debe ser una string de identificador que no esté vacía y que cumpla con el estándar E.164.",
